@@ -1,6 +1,6 @@
 # Detect-Labels-Faces-and-Landmarks-in-Images-with-the-Cloud-Vision-API
-gcloud alpha services api-keys create --display-name="CloudHustlers" 
-KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=CloudHustlers")
+gcloud alpha services api-keys create --display-name="Monis siddiqui" 
+KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=Monis siddiqui")
 export API_KEY=$(gcloud alpha services api-keys get-key-string $KEY_NAME --format="value(keyString)")
 export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
 gsutil mb gs://$PROJECT_ID
